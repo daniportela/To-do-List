@@ -1,11 +1,23 @@
 <%- include("header") -%>
+<div class="container container-fluid">
+  <h2>ABOUT THIS APP</h2>
 
-<h2>This is the about page</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-  mollit anim id est laborum.</p>
+  <p class="about-par">This is a to-do list web app created as part of a web development course, using Node.js along with a MongoDB database for storing data.
+    <br> The following node modules were used in the process:
+  </p>
+    <ul class="list-group">
+      <li class="list-group-item"><a href="https://expressjs.com/"><b>Express.js</b></a> - The most popular Node.js framework.</li>
+      <li class="list-group-item"><a href="https://ejs.co/"><b>EJS</b></a> - For dynamic rendering of titles and headers / footers.</li>
+      <li class="list-group-item"><a href="https://www.npmjs.com/package/body-parser"><b>Body Parser</b></a> - To select variables from the HTML body.</li>
+      <li class="list-group-item"><a href="https://lodash.com/"><b>Lodash</b></a> - To simplify and unify differently formatted URL searches into one (IE: <kbd>https://todo-list-app/work</kbd> would redirect to the same list as <kbd>https://todo-list-app/Work</kbd> with a capital W). </li>
+      <li class="list-group-item"><a href="https://mongoosejs.com/"><b>Mongoose</b></a> - Framework used to simplify working with MongoDB.</li>
+    </ul>
 
-  <%- include("footer") -%>
+    <p class="about-par">Other technologies used:</p>
+    <ul class="list-group">
+      <li class="list-group-item"><a href="https://www.npmjs.com/"><b>NPM</b></a> - For installing and managing Node modules.</li>
+      <li class="list-group-item"><a href="https://git-scm.com/"><b>GIT & Github</b></a> - For version control.</li>
+      <li class="list-group-item"><a href="https://www.heroku.com/home"><b>Heroku</b></a> - For deploying the app.</li>
+      <li class="list-group-item"><a href="https://getbootstrap.com/"><b>Bootstrap</b></a> - For styling and templating.</li>
+    </ul>
+</div>

@@ -63,6 +63,10 @@ app.get("/", function(req, res){
   });
 });
 
+app.get("/about", function(req, res){
+  res.render("about");
+});
+
 app.get("/:dynamicList", function(req, res){
   const customListName = _.capitalize(req.params.dynamicList);
   const day = date.getDate();
@@ -82,10 +86,6 @@ app.get("/:dynamicList", function(req, res){
       }
     }
   });
-});
-
-app.get("/about", function(req, res){
-  res.render("about");
 });
 
 //App post
