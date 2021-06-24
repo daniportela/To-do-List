@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 //Mongoose
 
-mongoose.connect("mongodb+srv://admin-daniportela:Jackta981@todolistdb.nfjjz.mongodb.net/todolistDB", { useNewUrlParser: true }, { useUnifiedTopology: true }, { useFindAndModify: false });
+mongoose.connect("mongodb+srv://admin-SAMPLE_USERNAME:SAMPLE_PASSWORD@todolistdb.nfjjz.mongodb.net/todolistDB", { useNewUrlParser: true }, { useUnifiedTopology: true }, { useFindAndModify: false });
 
 const itemsSchema = {
   name: String
